@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.form input{
+    padding: 10px;
+    border-right: 0;
+    outline: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width: 400px;
+    font-size: x-large
+}
+
+.form button{
+    padding: 10px 30px;
+    border-left: 0;
+    font-size: x-large;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: red;
+    cursor: pointer
+}
+
+.element{
+    display: flex;
+    align-items: center;
+    width: 75vw;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-top:10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.unchecked{
+    background-color: rgba(145, 238, 145, 0.6)
+}
+
+.checked{
+    background-color: rgba(255, 98, 98, 0.3);
+}
+
+.element div{
+    display: flex;
+    align-items: center;
+}
+
+.element figure img{
+    width: 30px;
+    cursor: pointer;
+    border: 1px solid honeydew;
+    border-radius: 7px;
+    background: honeydew;
+    padding: 3px;
+}
+
+.element .check{
+    transform: scale(1.5);
+    accent-color: red;
+}
+.element .text{
+    font-size: 1.5rem;
+    outline: none;
+    width: 500px;
+    margin-left: 20px;
+    color: inherit;
+    font-style: inherit;
+}
+.unfocus{
+    background-color: transparent;
+    border: none;
+    cursor: default;
+}
+
+.focus{
+    background-color: white;
+    border: 1px solid #000;
+}
